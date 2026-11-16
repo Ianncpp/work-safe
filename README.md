@@ -5,28 +5,6 @@ Site educațional static, cu două pagini, pentru prezentare în clasă și stud
 - **Pagina 1** (`index.html`) — Tema 10. Iluminarea de producere
 - **Pagina 2** (`microclimat.html`) — Tema 8. Igiena muncii și sanitația de producție
 
-## Cum se deschide
-
-Deschide `index.html` cu dublu clic (funcționează direct din folder, fără server).
-Nu sunt necesare instalări, conturi sau conexiune la internet.
-
-## Structura folderului
-
-```
-worksafe/
-├── index.html               # Tema 10 — Iluminarea de producere
-├── microclimat.html         # Tema 8 — Igiena muncii și microclimatul
-├── README.md
-└── assets/
-    ├── css/style.css        # design system, layout, componente
-    ├── js/
-    │   ├── site.js          # navigare, cuprins, mod prezentare, quiz
-    │   ├── iluminare.js     # selector de iluminare, plan interactiv, quiz
-    │   └── microclimat.js   # simulator de microclimat, quiz
-    ├── svg/                 # 13 ilustrații (folosite pe pagini)
-    └── png/                 # aceleași ilustrații, pentru proiectoare/documente
-```
-
 ## Funcționalități
 
 - **Cuprins** cu evidențierea secțiunii active și **bară de progres** la lectură.
