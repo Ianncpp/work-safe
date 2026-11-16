@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="606" viewBox="0 136 1400 606" role="img" aria-label="Iluminarea de producere">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#24A7D6"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#24A7D6" text-anchor="start" letter-spacing="2">PAGINA 1 · CONCEPT PRINCIPAL</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Iluminarea de producere</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="56" y="152" width="1288" height="562" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="83" y="182" width="1234" height="489" rx="18" fill="#EDF3F8"/>
+<rect x="83" y="563" width="1234" height="108" rx="0" fill="#DFE8EF"/>
+<rect x="132" y="215" width="335" height="303" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="299.5" y1="221" x2="299.5" y2="512" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="137" y1="366.5" x2="462" y2="366.5" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="177" cy="265" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M144 494 Q192 423 237 484 T459 478 L459 510 L144 510Z" fill="#71AD9D" opacity="0.72"/>
+<path d="M470 315 L810 576 L470 576Z" fill="#FFDA82" opacity="0.27"/>
+<rect x="615" y="225" width="158" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M623 237 L570 379 L818 379 L765 237Z" fill="url(#warm)"/>
+<rect x="1000" y="225" width="160" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M1008 237 L955 379 L1205 379 L1152 237Z" fill="url(#warm)"/>
+<rect x="510" y="512" width="280" height="14" rx="6" fill="#A98063"/>
+<rect x="526" y="526" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="765" y="526" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="599.6" y="445" width="98.0" height="64" rx="6" fill="#132338" stroke="#8CA2B6" stroke-width="4"/>
+<rect x="641.6" y="509" width="7" height="11" rx="2" fill="#9BAFC1"/>
+<rect x="619.2" y="518" width="48" height="5" rx="3" fill="#9BAFC1"/>
+<rect x="720.0" y="505" width="32" height="5" rx="2" fill="#FFFFFF"/>
+<rect x="916" y="512" width="280" height="14" rx="6" fill="#A98063"/>
+<rect x="932" y="526" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="1171" y="526" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="1005.6" y="445" width="98.0" height="64" rx="6" fill="#132338" stroke="#8CA2B6" stroke-width="4"/>
+<rect x="1047.6" y="509" width="7" height="11" rx="2" fill="#9BAFC1"/>
+<rect x="1025.2" y="518" width="48" height="5" rx="3" fill="#9BAFC1"/>
+<rect x="1126.0" y="505" width="32" height="5" rx="2" fill="#FFFFFF"/>
+<rect x="145" y="584" width="220" height="54" rx="11" fill="#FFFFFF"/>
+<text x="255" y="617" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#132338" text-anchor="middle">Lumină naturală</text>
+<rect x="516" y="584" width="263" height="54" rx="11" fill="#FFFFFF"/>
+<text x="648" y="617" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#132338" text-anchor="middle">Iluminat general</text>
+<rect x="936" y="584" width="246" height="54" rx="11" fill="#FFFFFF"/>
+<text x="1061" y="617" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="21" font-weight="700" fill="#132338" text-anchor="middle">Post de lucru</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="556" viewBox="0 136 1400 556" role="img" aria-label="Organizarea sistemelor de iluminat">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#24A7D6"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#24A7D6" text-anchor="start" letter-spacing="2">GENERAL · LOCAL · COMBINAT · EVACUARE</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Organizarea sistemelor de iluminat</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="55" y="159" width="625" height="238" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="75" y="179" width="180" height="150" rx="14" fill="#EBF2F7"/>
+<rect x="121" y="190" width="85" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M129 202 L76 344 L251 344 L198 202Z" fill="url(#warm)"/>
+<text x="284" y="236" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#132338" text-anchor="start">Iluminare generală</text>
+<text x="284" y="275" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#52677D" text-anchor="start">Lumină în întreaga încăpere</text>
+<rect x="710" y="159" width="625" height="238" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="730" y="179" width="180" height="150" rx="14" fill="#EBF2F7"/>
+<rect x="776" y="190" width="85" height="12" rx="4" fill="#8E9FB1"/>
+<path d="M851 241 L807 328 L890 328Z" fill="#F9D67C" opacity="0.48"/>
+<line x1="860" y1="245" x2="833" y2="272" stroke="#71879F" stroke-width="7" stroke-linecap="round"/>
+<text x="939" y="236" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#132338" text-anchor="start">Iluminare locală</text>
+<text x="939" y="275" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#52677D" text-anchor="start">Lumină pe suprafața de lucru</text>
+<rect x="55" y="426" width="625" height="238" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="75" y="446" width="180" height="150" rx="14" fill="#EBF2F7"/>
+<rect x="121" y="457" width="85" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M129 469 L76 611 L251 611 L198 469Z" fill="url(#warm)"/>
+<path d="M196 508 L152 595 L235 595Z" fill="#F9D67C" opacity="0.48"/>
+<line x1="205" y1="512" x2="178" y2="539" stroke="#71879F" stroke-width="7" stroke-linecap="round"/>
+<text x="284" y="503" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#132338" text-anchor="start">Iluminare combinată</text>
+<text x="284" y="542" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#52677D" text-anchor="start">Generală + locală</text>
+<rect x="710" y="426" width="625" height="238" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="730" y="446" width="180" height="150" rx="14" fill="#EBF2F7"/>
+<rect x="776" y="457" width="85" height="12" rx="4" fill="#8E9FB1"/>
+<rect x="756" y="493" width="124" height="64" rx="9" fill="#27A883"/>
+<text x="819" y="536" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle">IEȘIRE</text>
+<text x="939" y="503" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#132338" text-anchor="start">Iluminare de evacuare</text>
+<text x="939" y="542" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#52677D" text-anchor="start">Marcarea traseelor de ieșire</text>
+</svg>

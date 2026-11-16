@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="588" viewBox="0 136 1400 588" role="img" aria-label="Cum se realizează ventilația?">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#19A89A"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#19A89A" text-anchor="start" letter-spacing="2">NATURALĂ · MECANICĂ · MIXTĂ</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Cum se realizează ventilația?</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="58" y="162" width="408" height="534" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="79" y="193" width="366" height="339" rx="18" fill="#EDF4F7"/>
+<rect x="102" y="236" width="136" height="186" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="170.0" y1="242" x2="170.0" y2="416" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="107" y1="329.0" x2="233" y2="329.0" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="147" cy="286" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M114 398 Q162 327 207 388 T230 382 L230 414 L114 414Z" fill="#71AD9D" opacity="0.72"/>
+<path d="M243 319 C278 296 311 339 368 317" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M353 304 L368 317 L350 329" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M243 347 C278 324 311 367 333 345" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M318 332 L333 345 L315 357" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M243 375 C278 352 311 395 353 373" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M338 360 L353 373 L335 385" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="83" y="582" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="26" font-weight="700" fill="#132338" text-anchor="start">Naturală</text>
+<text x="83" y="626" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#52677D" text-anchor="start">Ferestre și diferențe de presiune</text>
+<rect x="497" y="162" width="408" height="534" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="518" y="193" width="366" height="339" rx="18" fill="#EDF4F7"/>
+<rect x="541" y="236" width="136" height="186" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="609.0" y1="242" x2="609.0" y2="416" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="546" y1="329.0" x2="672" y2="329.0" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="586" cy="286" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M553 398 Q601 327 646 388 T669 382 L669 414 L553 414Z" fill="#71AD9D" opacity="0.72"/>
+<circle cx="785" cy="265" r="40" fill="#66899C"/>
+<circle cx="785" cy="265" r="12" fill="#FFFFFF"/>
+<path d="M785 265 Q809.0416305603426 289.04163056034264 807.8614678157213 308.33997334229383" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M785 265 Q760.9583694396574 289.04163056034264 741.6600266577062 287.8614678157213" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M785 265 Q760.9583694396574 240.9583694396574 762.1385321842787 221.66002665770617" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M785 265 Q809.0416305603426 240.9583694396574 828.3399733422938 242.1385321842787" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="522" y="582" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="26" font-weight="700" fill="#132338" text-anchor="start">Mecanică</text>
+<text x="522" y="626" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#52677D" text-anchor="start">Ventilatoare și instalații</text>
+<rect x="936" y="162" width="408" height="534" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="957" y="193" width="366" height="339" rx="18" fill="#EDF4F7"/>
+<rect x="980" y="236" width="136" height="186" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="1048.0" y1="242" x2="1048.0" y2="416" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="985" y1="329.0" x2="1111" y2="329.0" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="1025" cy="286" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M992 398 Q1040 327 1085 388 T1108 382 L1108 414 L992 414Z" fill="#71AD9D" opacity="0.72"/>
+<path d="M1121 319 C1156 296 1189 339 1246 317" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1231 304 L1246 317 L1228 329" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1121 347 C1156 324 1189 367 1211 345" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1196 332 L1211 345 L1193 357" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1121 375 C1156 352 1189 395 1231 373" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1216 360 L1231 373 L1213 385" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="1224" cy="265" r="40" fill="#66899C"/>
+<circle cx="1224" cy="265" r="12" fill="#FFFFFF"/>
+<path d="M1224 265 Q1248.0416305603426 289.04163056034264 1246.8614678157212 308.33997334229383" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1224 265 Q1199.9583694396574 289.04163056034264 1180.660026657706 287.8614678157213" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1224 265 Q1199.9583694396574 240.9583694396574 1201.1385321842788 221.66002665770617" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1224 265 Q1248.0416305603426 240.9583694396574 1267.339973342294 242.1385321842787" fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="961" y="582" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="26" font-weight="700" fill="#132338" text-anchor="start">Mixtă</text>
+<text x="961" y="626" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="400" fill="#52677D" text-anchor="start">Cele două metode împreună</text>
+</svg>

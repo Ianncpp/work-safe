@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="581" viewBox="0 136 1400 581" role="img" aria-label="Cei patru parametri ai microclimatului">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#19A89A"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#19A89A" text-anchor="start" letter-spacing="2">TEMPERATURĂ · UMIDITATE · AER · RADIAȚIE</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Cei patru parametri ai microclimatului</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="55" y="172" width="316" height="517" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="77" y="198" width="272" height="291" rx="20" fill="#F0F6F9"/>
+<rect x="195.4" y="278.4" width="35.2" height="104.50000000000001" rx="17.6" fill="#FFFFFF" stroke="#19A89A" stroke-width="4.4"/>
+<circle cx="213" cy="387.3" r="28.6" fill="#19A89A"/>
+<rect x="205.3" y="307.0" width="15.400000000000002" height="82.5" rx="7.700000000000001" fill="#19A89A"/>
+<text x="83" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#132338" text-anchor="start">Temperatură</text>
+<text x="83" y="603" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#F4B74E" text-anchor="start">°C</text>
+<rect x="392" y="172" width="316" height="517" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="414" y="198" width="272" height="291" rx="20" fill="#F0F6F9"/>
+<path d="M550 282.78 C536.58 307.18 504.86 336.46 504.86 359.64 C504.86 414.53999999999996 595.14 414.53999999999996 595.14 359.64 C595.14 336.46 563.42 307.18 550 282.78Z" fill="#24A7D6"/>
+<text x="420" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#132338" text-anchor="start">Umiditate</text>
+<text x="420" y="603" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#24A7D6" text-anchor="start">%</text>
+<rect x="729" y="172" width="316" height="517" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="751" y="198" width="272" height="291" rx="20" fill="#F0F6F9"/>
+<path d="M803 296 C838 273 871 316 928 294" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M913 281 L928 294 L910 306" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M803 324 C838 301 871 344 893 322" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M878 309 L893 322 L875 334" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M803 352 C838 329 871 372 913 350" fill="none" stroke="#19A89A" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M898 337 L913 350 L895 362" fill="none" stroke="#19A89A" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="757" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#132338" text-anchor="start">Viteza aerului</text>
+<text x="757" y="603" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#19A89A" text-anchor="start">m/s</text>
+<rect x="1066" y="172" width="316" height="517" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1088" y="198" width="272" height="291" rx="20" fill="#F0F6F9"/>
+<circle cx="1224" cy="347" r="41" fill="#F4B74E"/>
+<path d="M1149 255 C1120 285 1179 300 1149 331" fill="none" stroke="#C98169" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1187 255 C1158 285 1217 300 1187 331" fill="none" stroke="#C98169" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1224 255 C1195 285 1254 300 1224 331" fill="none" stroke="#C98169" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1261 255 C1232 285 1291 300 1261 331" fill="none" stroke="#C98169" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M1299 255 C1270 285 1329 300 1299 331" fill="none" stroke="#C98169" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1094" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#132338" text-anchor="start">Radiație termică</text>
+<text x="1094" y="603" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#9386CF" text-anchor="start">temperatură radiantă</text>
+</svg>

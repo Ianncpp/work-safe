@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="585" viewBox="0 136 1400 585" role="img" aria-label="Studiu de caz: confortul termic în birou">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#19A89A"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#19A89A" text-anchor="start" letter-spacing="2">CONDIȚII PROBLEMATICE · MĂSURI CORECTIVE</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Studiu de caz: confortul termic în birou</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="64" y="164" width="604" height="529" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="89" y="206" width="547.6" height="355.2" rx="14" fill="#EEF4F8"/>
+<rect x="89" y="516.8" width="547.6" height="44.4" rx="1" fill="#D3E0EA"/>
+<rect x="118.6" y="250.4" width="177.6" height="189.44" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="207.39999999999998" y1="256.4" x2="207.39999999999998" y2="433.84000000000003" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="123.6" y1="345.12" x2="291.2" y2="345.12" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="163.6" cy="300.4" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M130.6 415.84000000000003 Q178.6 344.84000000000003 223.6 405.84000000000003 T288.2 399.84000000000003 L288.2 431.84000000000003 L130.6 431.84000000000003Z" fill="#71AD9D" opacity="0.72"/>
+<path d="M296.2 294.8 L550.76 479.8 L296.2 479.8Z" fill="#F8CC66" opacity="0.25"/>
+<rect x="429.4" y="254.84" width="88.8" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M437.4 266.84000000000003 L384.4 408.84000000000003 L563.1999999999999 408.84000000000003 L510.19999999999993 266.84000000000003Z" fill="url(#warm)"/>
+<rect x="340.6" y="463.52" width="245.68" height="14" rx="6" fill="#A98063"/>
+<rect x="356.6" y="477.52" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="561.28" y="477.52" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="419.21760000000006" y="396.52" width="85.988" height="64" rx="6" fill="#132338" stroke="#8CA2B6" stroke-width="4"/>
+<rect x="456.06960000000004" y="460.52" width="7" height="11" rx="2" fill="#9BAFC1"/>
+<rect x="436.4152" y="469.52" width="48" height="5" rx="3" fill="#9BAFC1"/>
+<rect x="524.86" y="456.52" width="32" height="5" rx="2" fill="#FFFFFF"/>
+<circle cx="595.16" cy="291.84000000000003" r="22" fill="#DB706B"/>
+<rect x="93" y="552" width="250" height="64" rx="12" fill="#FFFFFF"/>
+<text x="218" y="593" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#DB706B" text-anchor="middle">29 °C  /  65%</text>
+<text x="367" y="573" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="26" font-weight="700" fill="#DB706B" text-anchor="start">ÎNAINTE</text>
+<text x="93" y="650" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#52677D" text-anchor="start">Soare direct, căldură excesivă</text>
+<rect x="732" y="164" width="604" height="529" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="757" y="206" width="547.6" height="355.2" rx="14" fill="#EEF4F8"/>
+<rect x="757" y="516.8" width="547.6" height="44.4" rx="1" fill="#D3E0EA"/>
+<rect x="786.6" y="250.4" width="177.6" height="189.44" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="875.4" y1="256.4" x2="875.4" y2="433.84000000000003" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="791.6" y1="345.12" x2="959.2" y2="345.12" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="831.6" cy="300.4" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M798.6 415.84000000000003 Q846.6 344.84000000000003 891.6 405.84000000000003 T956.2 399.84000000000003 L956.2 431.84000000000003 L798.6 431.84000000000003Z" fill="#71AD9D" opacity="0.72"/>
+<path d="M964.2 294.8 L1218.76 479.8 L964.2 479.8Z" fill="#F8CC66" opacity="0.25"/>
+<rect x="1097.4" y="254.84" width="88.8" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M1105.4 266.84000000000003 L1052.4 408.84000000000003 L1231.2 408.84000000000003 L1178.2 266.84000000000003Z" fill="url(#warm)"/>
+<rect x="1008.6" y="463.52" width="245.68" height="14" rx="6" fill="#A98063"/>
+<rect x="1024.6" y="477.52" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="1229.28" y="477.52" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="1087.2176" y="396.52" width="85.988" height="64" rx="6" fill="#132338" stroke="#8CA2B6" stroke-width="4"/>
+<rect x="1124.0696" y="460.52" width="7" height="11" rx="2" fill="#9BAFC1"/>
+<rect x="1104.4152" y="469.52" width="48" height="5" rx="3" fill="#9BAFC1"/>
+<rect x="1192.8600000000001" y="456.52" width="32" height="5" rx="2" fill="#FFFFFF"/>
+<rect x="761" y="552" width="250" height="64" rx="12" fill="#FFFFFF"/>
+<text x="886" y="593" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="25" font-weight="700" fill="#19A89A" text-anchor="middle">24 °C  /  45%</text>
+<text x="1035" y="573" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="26" font-weight="700" fill="#19A89A" text-anchor="start">DUPĂ</text>
+<text x="761" y="650" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#52677D" text-anchor="start">Umbrire, reglare și monitorizare</text>
+</svg>

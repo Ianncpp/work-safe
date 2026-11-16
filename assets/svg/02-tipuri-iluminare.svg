@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="582" viewBox="0 136 1400 582" role="img" aria-label="Tipuri de iluminare după sursă">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#24A7D6"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#24A7D6" text-anchor="start" letter-spacing="2">ILUMINARE NATURALĂ · ARTIFICIALĂ · MIXTĂ</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Tipuri de iluminare după sursă</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="61" y="168" width="403" height="522" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="79" y="208" width="366.3" height="237.6" rx="14" fill="#EEF4F8"/>
+<rect x="79" y="415.9" width="366.3" height="29.7" rx="1" fill="#D3E0EA"/>
+<rect x="98.8" y="237.7" width="118.8" height="126.72" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="158.2" y1="243.7" x2="158.2" y2="358.41999999999996" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="103.8" y1="301.06" x2="212.6" y2="301.06" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="143.8" cy="287.7" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M110.8 340.41999999999996 Q158.8 269.41999999999996 203.8 330.41999999999996 T209.6 324.41999999999996 L209.6 356.41999999999996 L110.8 356.41999999999996Z" fill="#71AD9D" opacity="0.72"/>
+<path d="M217.6 267.4 L387.88 391.15 L217.6 391.15Z" fill="#F8CC66" opacity="0.25"/>
+<rect x="306.7" y="240.67000000000002" width="59.4" height="11.879999999999999" rx="5" fill="#8494A8"/>
+<rect x="247.3" y="380.26" width="164.34" height="14" rx="6" fill="#A98063"/>
+<rect x="263.3" y="394.26" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="386.64" y="394.26" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="299.8888" y="313.26" width="57.519" height="64" rx="6" fill="#132338" stroke="#8CA2B6" stroke-width="4"/>
+<rect x="324.5398" y="377.26" width="7" height="11" rx="2" fill="#9BAFC1"/>
+<rect x="311.3926" y="386.26" width="48" height="5" rx="3" fill="#9BAFC1"/>
+<rect x="370.555" y="373.26" width="32" height="5" rx="2" fill="#FFFFFF"/>
+<text x="85" y="514" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#132338" text-anchor="start">Naturală</text>
+<text x="85" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#52677D" text-anchor="start">Lumina zilei</text>
+<rect x="85" y="593" width="156" height="38" rx="19" fill="#D6F2FA"/>
+<text x="163.0" y="618" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#132338" text-anchor="middle">SURSA 1</text>
+<rect x="499" y="168" width="403" height="522" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="517" y="208" width="366.3" height="237.6" rx="14" fill="#EEF4F8"/>
+<rect x="517" y="415.9" width="366.3" height="29.7" rx="1" fill="#D3E0EA"/>
+<rect x="536.8" y="237.7" width="118.8" height="126.72" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="596.1999999999999" y1="243.7" x2="596.1999999999999" y2="358.41999999999996" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="541.8" y1="301.06" x2="650.5999999999999" y2="301.06" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="581.8" cy="287.7" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M548.8 340.41999999999996 Q596.8 269.41999999999996 641.8 330.41999999999996 T647.5999999999999 324.41999999999996 L647.5999999999999 356.41999999999996 L548.8 356.41999999999996Z" fill="#71AD9D" opacity="0.72"/>
+<rect x="744.7" y="240.67000000000002" width="59.4" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M752.7 252.67000000000002 L699.7 394.67 L849.1 394.67 L796.1 252.67000000000002Z" fill="url(#warm)"/>
+<rect x="685.3" y="380.26" width="164.34" height="14" rx="6" fill="#A98063"/>
+<rect x="701.3" y="394.26" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="824.64" y="394.26" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="737.8888" y="313.26" width="57.519" height="64" rx="6" fill="#132338" stroke="#8CA2B6" stroke-width="4"/>
+<rect x="762.5398" y="377.26" width="7" height="11" rx="2" fill="#9BAFC1"/>
+<rect x="749.3925999999999" y="386.26" width="48" height="5" rx="3" fill="#9BAFC1"/>
+<rect x="808.555" y="373.26" width="32" height="5" rx="2" fill="#FFFFFF"/>
+<text x="523" y="514" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#132338" text-anchor="start">Artificială</text>
+<text x="523" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#52677D" text-anchor="start">Corpuri LED</text>
+<rect x="523" y="593" width="156" height="38" rx="19" fill="#D6F2FA"/>
+<text x="601.0" y="618" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#132338" text-anchor="middle">SURSA 2</text>
+<rect x="937" y="168" width="403" height="522" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="955" y="208" width="366.3" height="237.6" rx="14" fill="#EEF4F8"/>
+<rect x="955" y="415.9" width="366.3" height="29.7" rx="1" fill="#D3E0EA"/>
+<rect x="974.8" y="237.7" width="118.8" height="126.72" rx="9" fill="url(#glass)" stroke="#D1E4F0" stroke-width="10"/>
+<line x1="1034.2" y1="243.7" x2="1034.2" y2="358.41999999999996" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<line x1="979.8" y1="301.06" x2="1088.6" y2="301.06" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round"/>
+<circle cx="1019.8" cy="287.7" r="26" fill="#FFF3C1" opacity="0.8"/>
+<path d="M986.8 340.41999999999996 Q1034.8 269.41999999999996 1079.8 330.41999999999996 T1085.6 324.41999999999996 L1085.6 356.41999999999996 L986.8 356.41999999999996Z" fill="#71AD9D" opacity="0.72"/>
+<path d="M1093.6 267.4 L1263.88 391.15 L1093.6 391.15Z" fill="#F8CC66" opacity="0.25"/>
+<rect x="1182.7" y="240.67000000000002" width="59.4" height="12" rx="4" fill="#FFF4CC" stroke="#E8B44F" stroke-width="1"/>
+<path d="M1190.7 252.67000000000002 L1137.7 394.67 L1287.1000000000001 394.67 L1234.1000000000001 252.67000000000002Z" fill="url(#warm)"/>
+<rect x="1123.3" y="380.26" width="164.34" height="14" rx="6" fill="#A98063"/>
+<rect x="1139.3" y="394.26" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="1262.6399999999999" y="394.26" width="10" height="74" rx="3" fill="#8D715B"/>
+<rect x="1175.8888" y="313.26" width="57.519" height="64" rx="6" fill="#132338" stroke="#8CA2B6" stroke-width="4"/>
+<rect x="1200.5398" y="377.26" width="7" height="11" rx="2" fill="#9BAFC1"/>
+<rect x="1187.3926" y="386.26" width="48" height="5" rx="3" fill="#9BAFC1"/>
+<rect x="1246.5549999999998" y="373.26" width="32" height="5" rx="2" fill="#FFFFFF"/>
+<text x="961" y="514" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#132338" text-anchor="start">Mixtă</text>
+<text x="961" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#52677D" text-anchor="start">Ambele surse</text>
+<rect x="961" y="593" width="156" height="38" rx="19" fill="#D6F2FA"/>
+<text x="1039.0" y="618" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#132338" text-anchor="middle">SURSA 3</text>
+</svg>

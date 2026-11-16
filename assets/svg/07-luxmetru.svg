@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="588" viewBox="0 136 1400 588" role="img" aria-label="Luxmetrul: măsurarea iluminanței">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#24A7D6"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#24A7D6" text-anchor="start" letter-spacing="2">INSTRUMENTE DE VERIFICARE</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Luxmetrul: măsurarea iluminanței</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="85" y="162" width="1230" height="534" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="141" y="220" width="540" height="413" rx="23" fill="#E5EDF3"/>
+<rect x="199" y="478" width="405" height="26" rx="6" fill="#A47F63"/>
+<rect x="252" y="500" width="18" height="108" rx="5" fill="#A47F63"/>
+<rect x="540" y="500" width="18" height="108" rx="5" fill="#A47F63"/>
+<rect x="314" y="276" width="230" height="240" rx="21" fill="#132338"/>
+<rect x="333" y="303" width="192" height="89" rx="12" fill="#D4F0F2"/>
+<text x="429" y="357" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="39" font-weight="700" fill="#132338" text-anchor="middle">500 lx</text>
+<rect x="347" y="417" width="39" height="29" rx="10" fill="#69889D"/>
+<rect x="410" y="417" width="39" height="29" rx="10" fill="#69889D"/>
+<rect x="473" y="417" width="39" height="29" rx="10" fill="#69889D"/>
+<path d="M428 278 C428 218 555 221 554 274" fill="none" stroke="#132338" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="554" cy="271" r="30" fill="#D1DCE4" stroke="#132338" stroke-width="5"/>
+<text x="742" y="285" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="29" font-weight="700" fill="#132338" text-anchor="start">Ce măsoară?</text>
+<text x="742" y="335" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="400" fill="#52677D" text-anchor="start">Iluminanța pe planul de lucru.</text>
+<text x="742" y="402" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="28" font-weight="700" fill="#132338" text-anchor="start">Unitate:</text>
+<text x="742" y="450" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="30" font-weight="700" fill="#24A7D6" text-anchor="start">lux (lx)</text>
+<text x="742" y="519" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#52677D" text-anchor="start">500 lx = valoare ilustrativă</text>
+<text x="742" y="555" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="19" font-weight="400" fill="#52677D" text-anchor="start">pentru citire și scriere la birou.</text>
+</svg>

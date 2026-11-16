@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="584" viewBox="0 136 1400 584" role="img" aria-label="Instrumente pentru măsurarea microclimatului">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#19A89A"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#19A89A" text-anchor="start" letter-spacing="2">ECHIPAMENTE ȘI UNITĂȚI</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Instrumente pentru măsurarea microclimatului</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="62" y="164" width="308" height="528" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="83" y="190" width="266" height="318" rx="20" fill="#EFF5F8"/>
+<rect x="195.0" y="265.5" width="40.0" height="118.75" rx="20.0" fill="#FFFFFF" stroke="#19A89A" stroke-width="5.0"/>
+<circle cx="215" cy="389.25" r="32.5" fill="#19A89A"/>
+<rect x="206.25" y="298.0" width="17.5" height="93.75" rx="8.75" fill="#19A89A"/>
+<text x="87" y="563" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#132338" text-anchor="start">Termometru</text>
+<text x="87" y="612" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#19A89A" text-anchor="start">Unitate: °C</text>
+<rect x="398" y="164" width="308" height="528" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="419" y="190" width="266" height="318" rx="20" fill="#EFF5F8"/>
+<rect x="480" y="280" width="145" height="150" rx="18" fill="#132338"/>
+<rect x="499" y="302" width="108" height="61" rx="7" fill="#D8F4F2"/>
+<text x="552" y="346" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="32" font-weight="700" fill="#132338" text-anchor="middle">45%</text>
+<circle cx="552" cy="394" r="11" fill="#19A89A"/>
+<text x="423" y="563" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#132338" text-anchor="start">Higrometru</text>
+<text x="423" y="612" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#19A89A" text-anchor="start">Unitate: %</text>
+<rect x="734" y="164" width="308" height="528" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="755" y="190" width="266" height="318" rx="20" fill="#EFF5F8"/>
+<line x1="888" y1="300" x2="888" y2="443" stroke="#132338" stroke-width="11" stroke-linecap="round"/>
+<circle cx="888" cy="289" r="13" fill="#839CAC"/>
+<path d="M888 289 L953.0 289.0" fill="none" stroke="#19A89A" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="953.0" cy="289.0" r="18" fill="#19A89A"/>
+<path d="M888 289 L855.5 345.29165124598853" fill="none" stroke="#19A89A" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="855.5" cy="345.29165124598853" r="18" fill="#19A89A"/>
+<path d="M888 289 L855.5 232.7083487540115" fill="none" stroke="#19A89A" stroke-width="12" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="855.5" cy="232.7083487540115" r="18" fill="#19A89A"/>
+<text x="759" y="563" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#132338" text-anchor="start">Anemometru</text>
+<text x="759" y="612" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#19A89A" text-anchor="start">Unitate: m/s</text>
+<rect x="1070" y="164" width="308" height="528" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="1091" y="190" width="266" height="318" rx="20" fill="#EFF5F8"/>
+<line x1="1224" y1="359" x2="1224" y2="461" stroke="#132338" stroke-width="10" stroke-linecap="round"/>
+<circle cx="1224" cy="321" r="64" fill="#445A70"/>
+<circle cx="1196" cy="292" r="21" fill="#FFFFFF" opacity="0.15"/>
+<text x="1095" y="563" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#132338" text-anchor="start">Termometru cu glob</text>
+<text x="1095" y="612" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="20" font-weight="700" fill="#19A89A" text-anchor="start">Unitate: °C</text>
+</svg>

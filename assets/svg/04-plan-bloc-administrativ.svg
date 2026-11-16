@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="619" viewBox="0 136 1400 619" role="img" aria-label="Plan demonstrativ: bloc administrativ">
+<defs><filter id="shadow" x="-20%" y="-30%" width="150%" height="170%"><feDropShadow dx="0" dy="9" stdDeviation="14" flood-color="#3D526B" flood-opacity=".12"/></filter><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FBFD"/><stop offset="1" stop-color="#EDF5FA"/></linearGradient><linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#BDEAFF"/><stop offset="1" stop-color="#6EBDDC"/></linearGradient><linearGradient id="warm" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#FFF4C8" stop-opacity=".75"/><stop offset="1" stop-color="#FFE19A" stop-opacity=".02"/></linearGradient><linearGradient id="cool" x1="0" x2="0" y1="0" y2="1"><stop stop-color="#9EEEF4" stop-opacity=".55"/><stop offset="1" stop-color="#9EEEF4" stop-opacity=".03"/></linearGradient></defs>
+<rect x="0" y="0" width="1400" height="800" rx="0" fill="url(#bg)"/>
+<rect x="0" y="0" width="1400" height="11" rx="0" fill="#24A7D6"/>
+<text x="66" y="67" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="17" font-weight="700" fill="#24A7D6" text-anchor="start" letter-spacing="2">ZONE ȘI NIVELURI DE ILUMINARE — REPERE</text>
+<text x="66" y="115" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="35" font-weight="700" fill="#132338" text-anchor="start">Plan demonstrativ: bloc administrativ</text>
+<rect x="65" y="748" width="1270" height="1" rx="0" fill="#DCE6EF"/>
+<text x="65" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="16" font-weight="400" fill="#52677D" text-anchor="start">WORKSAFE · Ilustrație educațională originală</text>
+<text x="1334" y="775" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="15" font-weight="400" fill="#52677D" text-anchor="end">Luchian Gabriel · Onoico Ianuș · Stog Cătălin</text>
+<rect x="57" y="154" width="1286" height="573" rx="23" fill="#FFFFFF" stroke="#DCE6EF" stroke-width="1" filter="url(#shadow)"/>
+<rect x="118" y="191" width="1140" height="459" rx="5" fill="#FBFCFE" stroke="#91A6B8" stroke-width="7"/>
+<line x1="518" y1="191" x2="518" y2="645" stroke="#9EB2C1" stroke-width="8" stroke-linecap="round"/>
+<line x1="883" y1="191" x2="883" y2="645" stroke="#9EB2C1" stroke-width="8" stroke-linecap="round"/>
+<line x1="118" y1="441" x2="1258" y2="441" stroke="#9EB2C1" stroke-width="8" stroke-linecap="round"/>
+<rect x="126" y="448" width="1124" height="68" rx="0" fill="#E9F2F6"/>
+<line x1="118" y1="516" x2="1258" y2="516" stroke="#9EB2C1" stroke-width="8" stroke-linecap="round"/>
+<line x1="198" y1="191" x2="273" y2="191" stroke="#70BBD7" stroke-width="10" stroke-linecap="round"/>
+<line x1="365" y1="191" x2="440" y2="191" stroke="#70BBD7" stroke-width="10" stroke-linecap="round"/>
+<line x1="608" y1="191" x2="683" y2="191" stroke="#70BBD7" stroke-width="10" stroke-linecap="round"/>
+<line x1="772" y1="191" x2="847" y2="191" stroke="#70BBD7" stroke-width="10" stroke-linecap="round"/>
+<line x1="994" y1="191" x2="1069" y2="191" stroke="#70BBD7" stroke-width="10" stroke-linecap="round"/>
+<line x1="1172" y1="191" x2="1247" y2="191" stroke="#70BBD7" stroke-width="10" stroke-linecap="round"/>
+<text x="146" y="231" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#132338" text-anchor="start">BIROU A</text>
+<text x="146" y="261" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#24A7D6" text-anchor="start">500 lx</text>
+<text x="548" y="231" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#132338" text-anchor="start">SALA ȘEDINȚE</text>
+<text x="548" y="261" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#24A7D6" text-anchor="start">500 lx</text>
+<text x="918" y="231" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#132338" text-anchor="start">RECEPȚIE</text>
+<text x="918" y="261" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#24A7D6" text-anchor="start">300 lx</text>
+<text x="143" y="545" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#132338" text-anchor="start">ARHIVĂ</text>
+<text x="143" y="575" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#24A7D6" text-anchor="start">200 lx</text>
+<text x="558" y="547" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#132338" text-anchor="start">SCĂRI</text>
+<text x="558" y="577" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#24A7D6" text-anchor="start">150 lx</text>
+<text x="924" y="547" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="700" fill="#132338" text-anchor="start">BIROU B</text>
+<text x="924" y="577" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="24" font-weight="700" fill="#24A7D6" text-anchor="start">500 lx</text>
+<rect x="153" y="304" width="106" height="53" rx="8" fill="#B5CCDA"/>
+<rect x="181" y="314" width="48" height="23" rx="4" fill="#132338"/>
+<rect x="328" y="304" width="106" height="53" rx="8" fill="#B5CCDA"/>
+<rect x="356" y="314" width="48" height="23" rx="4" fill="#132338"/>
+<rect x="928" y="309" width="106" height="53" rx="8" fill="#B5CCDA"/>
+<rect x="956" y="319" width="48" height="23" rx="4" fill="#132338"/>
+<rect x="1086" y="309" width="106" height="53" rx="8" fill="#B5CCDA"/>
+<rect x="1114" y="319" width="48" height="23" rx="4" fill="#132338"/>
+<rect x="943" y="579" width="106" height="53" rx="8" fill="#B5CCDA"/>
+<rect x="971" y="589" width="48" height="23" rx="4" fill="#132338"/>
+<rect x="598" y="319" width="220" height="45" rx="21" fill="#A7BDCA"/>
+<circle cx="626" cy="299" r="13" fill="#7D96AA"/>
+<circle cx="679" cy="299" r="13" fill="#7D96AA"/>
+<circle cx="732" cy="299" r="13" fill="#7D96AA"/>
+<circle cx="785" cy="299" r="13" fill="#7D96AA"/>
+<rect x="183" y="601" width="51" height="17" rx="3" fill="#9AAFBF"/>
+<rect x="258" y="601" width="51" height="17" rx="3" fill="#9AAFBF"/>
+<rect x="333" y="601" width="51" height="17" rx="3" fill="#9AAFBF"/>
+<rect x="408" y="601" width="51" height="17" rx="3" fill="#9AAFBF"/>
+<line x1="598" y1="583" x2="598" y2="631" stroke="#A7B8C5" stroke-width="4" stroke-linecap="round"/>
+<line x1="643" y1="583" x2="643" y2="631" stroke="#A7B8C5" stroke-width="4" stroke-linecap="round"/>
+<line x1="688" y1="583" x2="688" y2="631" stroke="#A7B8C5" stroke-width="4" stroke-linecap="round"/>
+<line x1="733" y1="583" x2="733" y2="631" stroke="#A7B8C5" stroke-width="4" stroke-linecap="round"/>
+<line x1="778" y1="583" x2="778" y2="631" stroke="#A7B8C5" stroke-width="4" stroke-linecap="round"/>
+<text x="638" y="490" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="22" font-weight="700" fill="#132338" text-anchor="start">CORIDOR · 100 lx</text>
+<text x="698" y="692" font-family="Noto Sans, DejaVu Sans, sans-serif" font-size="18" font-weight="400" fill="#52677D" text-anchor="middle">Valorile sunt repere EN 12464-1:2021, nu măsurări ale unei clădiri reale.</text>
+</svg>
