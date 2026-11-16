@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Igiena muncii și microclimatul — WorkSafe</title>
+<meta name="description" content="Tema 8: igiena muncii, sanitația de producție și cei patru parametri ai microclimatului. Simulator demonstrativ, valori din HG nr. 353/2010 și test de verificare.">
+<meta name="theme-color" content="#f6f8fb">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Cpath d='M18 2.6 31 7.4v9.9c0 7.6-5.2 13.6-13 16.1-7.8-2.5-13-8.5-13-16.1V7.4L18 2.6Z' fill='%2319a89a'/%3E%3Ccircle cx='18' cy='19' r='2.4' fill='%23fff'/%3E%3Cpath d='M18 11.5v2M18 24.5v2M11.5 19h2M22.5 19h2' stroke='%23fff' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-theme="micro" data-page="microclimat">
+
+<a class="skip-link" href="#main">Sari la conținut</a>
+<div class="progress" aria-hidden="true"><div class="progress__bar" id="progressBar"></div></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="index.html" aria-label="WorkSafe — începutul lecției">
+      <svg class="brand__mark" viewBox="0 0 36 36" aria-hidden="true">
+        <path d="M18 2.6 31 7.4v9.9c0 7.6-5.2 13.6-13 16.1-7.8-2.5-13-8.5-13-16.1V7.4L18 2.6Z" fill="#19a89a"/>
+        <circle cx="18" cy="19" r="2.4" fill="#fff"/>
+        <path d="M18 11.5v2M18 24.5v2M11.5 19h2M22.5 19h2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      <span class="brand__text">
+        <span class="brand__name">WorkSafe</span>
+        <span class="brand__tag">Mediul de muncă explicat vizual</span>
+      </span>
+    </a>
+
+    <nav class="tabs" aria-label="Lecții">
+      <a class="tab" href="index.html"><span class="tab__dot"></span>Iluminarea de producere</a>
+      <a class="tab" href="microclimat.html" aria-current="page"><span class="tab__dot"></span>Igiena muncii</a>
+    </nav>
+
+    <div class="header-tools">
+      <button class="tool-btn" id="tocBtn" type="button" aria-expanded="false" aria-controls="toc" aria-label="Deschide cuprinsul lecției">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg>
+        <span>Cuprins</span>
+      </button>
+      <button class="tool-btn" id="presentBtn" type="button" aria-pressed="false" aria-label="Comută modul de prezentare">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8 20h8"/></svg>
+        <span>Prezentare</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <span class="kicker"><span class="kicker__dot"></span>Tema 8 · Igiena muncii</span>
+        <h1>Igiena muncii și sanitația de producție</h1>
+        <p class="hero__sub">Noțiuni esențiale și parametrii microclimatului la locul de muncă — ce măsurăm, cu ce instrumente și ce spune normativul.</p>
+
+        <ul class="chips" aria-label="Ce vei găsi în lecție">
+          <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>Definești igiena muncii</li>
+          <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v2M12 19v2M4.9 5.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/><circle cx="12" cy="12" r="4"/></svg>Explici sanitația de producție</li>
+          <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h10v5a5 5 0 0 1-10 0V3Z"/><path d="M12 13v8"/></svg>Numești cei patru parametri</li>
+          <li class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Interpretezi repere legale</li>
+        </ul>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#igiena">
+            Începe lecția
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7 7 7-7"/></svg>
+          </a>
+          <a class="btn btn--ghost" href="#simulator">
+            Deschide simulatorul
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__media">
+        <div class="plate">
+          <img src="assets/svg/08-microclimat-hero.svg" alt="Birou cu indicatori termici: temperatură, umiditate, viteza aerului și radiație termică." width="1400" height="592">
+        </div>
+        <p class="hero__caption">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v2M12 19v2M4.9 5.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/><circle cx="12" cy="12" r="4"/></svg>
+          Microclimatul se citește prin patru parametri măsurabili.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 01 ================= -->
+  <section class="section" id="igiena" data-nav="Ce este igiena muncii">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">01 · Definiție</div>
+        <h2>Ce este igiena muncii?</h2>
+      </div>
+
+      <div class="prose reveal">
+        <p>Igiena muncii este domeniul preocupat de <strong>anticiparea, recunoașterea, evaluarea și controlul</strong> factorilor din mediul profesional care ar putea afecta sănătatea lucrătorilor. Scopul său este prevenirea îmbolnăvirilor profesionale și îmbunătățirea condițiilor de muncă.</p>
+      </div>
+
+      <div class="grid grid--2" style="margin-top: 28px">
+        <div class="card reveal">
+          <div class="card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
+          </div>
+          <h3>Obiective</h3>
+          <ul class="list-clean">
+            <li>Identificarea factorilor nocivi.</li>
+            <li>Evaluarea expunerii.</li>
+            <li>Recomandarea măsurilor preventive.</li>
+            <li>Protejarea sănătății.</li>
+            <li>Supravegherea condițiilor de lucru.</li>
+          </ul>
+        </div>
+        <div class="card card--accent reveal">
+          <div class="card__icon card__icon--warm">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V8l7-4v17"/><path d="M10 21V11l9-4v14"/><path d="M3 21h18"/></svg>
+          </div>
+          <h3>Exemplu într-un birou</h3>
+          <p>Sunt evaluate temperatura, umiditatea, zgomotul, iluminarea și calitatea aerului. Rezultatul nu este un diagnostic medical, ci o imagine a condițiilor în care se lucrează.</p>
+          <p style="margin-top:12px">Pe baza acestei imagini se decid măsuri: ventilație, umbrire, întreținere, reorganizarea posturilor.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 02 ================= -->
+  <section class="section section--band" id="sanitatie" data-nav="Sanitația de producție">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">02 · Definiție</div>
+        <h2>Ce este sanitația de producție?</h2>
+      </div>
+
+      <div class="prose reveal">
+        <p>Sanitația de producție reprezintă ansamblul măsurilor tehnice, organizatorice și igienico-sanitare prin care se previn sau se reduc expunerile dăunătoare din mediul de muncă.</p>
+      </div>
+
+      <div class="grid grid--2" style="margin-top: 28px; align-items: start">
+        <div class="card reveal">
+          <h3>Exemple concrete</h3>
+          <ul class="list-clean">
+            <li>Curățenie și îndepărtarea prafului.</li>
+            <li>Întreținerea instalațiilor sanitare.</li>
+            <li>Ventilație adecvată.</li>
+            <li>Controlul temperaturii și umidității.</li>
+            <li>Prevenirea mucegaiului.</li>
+            <li>Controlul surselor de zgomot și substanțe periculoase.</li>
+            <li>Acces la apă potabilă.</li>
+          </ul>
+        </div>
+
+        <div class="card card--flat reveal" style="background: var(--surface-muted)">
+          <div class="card__eyebrow">Diferența-cheie</div>
+          <h3 style="font-size: 19px">Igienă versus sanitație</h3>
+          <div style="display:grid; gap:16px; margin-top:14px">
+            <div style="padding-left:14px; border-left:2px solid var(--accent)">
+              <strong style="display:block; font-size:14.5px; margin-bottom:2px">Igiena muncii</strong>
+              <span style="font-size:14px; color:var(--muted)">identifică și evaluează factorii care afectează sănătatea.</span>
+            </div>
+            <div style="padding-left:14px; border-left:2px solid var(--warm)">
+              <strong style="display:block; font-size:14.5px; margin-bottom:2px">Sanitația de producție</strong>
+              <span style="font-size:14px; color:var(--muted)">desemnează măsurile practice pentru menținerea unui mediu igienic.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 03 ================= -->
+  <section class="section" id="factori" data-nav="Factorii mediului de muncă">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">03 · Clasificare</div>
+        <h2>Factorii mediului de muncă</h2>
+        <p class="section__lede">Factorii de risc se grupează în patru familii. Un loc de muncă poate cumula mai multe deodată.</p>
+      </div>
+
+      <div class="grid grid--4">
+        <div class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v3M12 18v3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M3 12h3M18 12h3M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Fizici</h3>
+          <p>Temperatură, zgomot, vibrații, iluminare, radiații.</p>
+          <p style="margin-top:10px; font-size:13.5px"><strong>Exemplu:</strong> stres termic într-un atelier supraîncălzit.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6v5a3 3 0 0 1-6 0V3Z"/><path d="M12 11v6a4 4 0 0 0 4 4h4"/><circle cx="8" cy="20" r="2"/><circle cx="20" cy="8" r="2"/></svg></div>
+          <h3>Chimici</h3>
+          <p>Gaze, vapori, pulberi, solvenți.</p>
+          <p style="margin-top:10px; font-size:13.5px"><strong>Exemplu:</strong> vapori de solvent fără extracție corespunzătoare.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 14c1.2-1.6 2.6-2.4 4-2.4s2.8.8 4 2.4"/><path d="M9 9h.01M15 9h.01"/></svg></div>
+          <h3>Biologici</h3>
+          <p>Microorganisme, mucegai, alte materiale biologice.</p>
+          <p style="margin-top:10px; font-size:13.5px"><strong>Exemplu:</strong> mucegai după infiltrații de apă.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="5" r="2.4"/><path d="M12 8v6"/><path d="m12 10-4 2M12 10l4 2"/><path d="m12 14-3 6M12 14l3 6"/></svg></div>
+          <h3>Ergonomici și organizatorici</h3>
+          <p>Poziții incomode, mișcări repetitive, efort și organizarea activității.</p>
+          <p style="margin-top:10px; font-size:13.5px"><strong>Exemplu:</strong> monitor prea jos și ședere prelungită.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 04 ================= -->
+  <section class="section section--band" id="microclimat" data-nav="Microclimatul și cei patru parametri">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">04 · Definire</div>
+        <h2>Microclimatul și cei patru parametri termici</h2>
+      </div>
+
+      <div class="prose reveal">
+        <p>Microclimatul locului de muncă reprezintă condițiile fizice ale mediului termic care influențează schimbul de căldură între organism și mediul înconjurător. El se descrie prin <strong>patru parametri principali</strong>: temperatura aerului, umiditatea relativă, viteza curenților de aer și radiația termică (temperatura radiantă).</p>
+        <p>Confortul resimțit mai depinde de îmbrăcăminte și de intensitatea activității fizice — de aceea aceiași parametri pot fi resimțiți diferit de două persoane.</p>
+      </div>
+
+      <figure class="figure reveal">
+        <img src="assets/svg/09-parametri-microclimat.svg" alt="Patru carduri cu parametrii microclimatului: temperatură în grade Celsius, umiditate în procente, viteza aerului în metri pe secundă și radiație termică." width="1400" height="581" loading="lazy">
+        <figcaption>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v2M12 19v2M4.9 5.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/><circle cx="12" cy="12" r="4"/></svg>
+          Temperatură, umiditate, viteza aerului și radiație termică.
+        </figcaption>
+      </figure>
+
+      <div class="grid grid--2" style="margin-top: 28px">
+        <div class="card reveal">
+          <div class="card__eyebrow">°C</div>
+          <h3>Temperatura aerului</h3>
+          <p>Exprimă starea termică a aerului. Temperatura ridicată poate contribui la transpirație, oboseală, deshidratare și, în condiții severe, la afecțiuni provocate de căldură. Temperatura scăzută poate genera disconfort și reducerea dexterității.</p>
+          <p style="margin-top:10px">Temperatura acceptabilă variază cu activitatea și sezonul.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__eyebrow">%</div>
+          <h3>Umiditatea relativă</h3>
+          <p>Este raportul procentual dintre presiunea parțială a vaporilor de apă din aer și presiunea vaporilor la saturație, la aceeași temperatură.</p>
+          <p style="margin-top:10px">Umiditatea foarte mare poate încetini evaporarea transpirației și favoriza condensul; umiditatea foarte mică poate favoriza uscăciunea ochilor și a mucoaselor.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__eyebrow">m/s</div>
+          <h3>Viteza aerului</h3>
+          <p>Exprimă viteza de deplasare a aerului. Curenții de aer pot răcori organismul la temperaturi ridicate, însă pot produce disconfort dacă aerul este rece sau este direcționat direct spre angajați.</p>
+        </div>
+        <div class="card reveal">
+          <div class="card__eyebrow">temperatura radiantă</div>
+          <h3>Radiația termică</h3>
+          <p>Reprezintă schimbul de căldură prin radiație între corp și suprafețele din jur.</p>
+          <p style="margin-top:10px">De exemplu, un angajat lângă un geam puternic însorit poate simți căldură chiar dacă temperatura aerului nu se modifică semnificativ.</p>
+        </div>
+      </div>
+
+      <p class="note note--warm reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.3 3.9 1.8 18.4A2 2 0 0 0 3.5 21h17a2 2 0 0 0 1.7-2.6L13.7 3.9a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+        <span><strong>De evidențiat.</strong> CO₂, praful și concentrațiile altor poluanți sunt importante pentru <em>calitatea aerului</em>, dar nu reprezintă cei patru parametri termici principali ai microclimatului.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 05 ================= -->
+  <section class="section" id="instrumente" data-nav="Instrumente și unități">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">05 · Măsurare</div>
+        <h2>Instrumente și unități de măsură</h2>
+        <p class="section__lede">Fiecare parametru are instrumentul și unitatea lui. Nu se măsoară „confortul” în general, ci fiecare mărime separat.</p>
+      </div>
+
+      <figure class="figure reveal">
+        <img src="assets/svg/10-instrumente-microclimat.svg" alt="Instrumente de măsurare: termometru, higrometru, anemometru și termometru cu glob pentru temperatura radiantă." width="1400" height="584" loading="lazy">
+        <figcaption>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 17 14-14 4 4L7 21H3v-4Z"/><path d="m9 11 2 2"/><path d="m13 7 2 2"/></svg>
+          Termometru, higrometru / psihrometru, anemometru și termometru cu glob.
+        </figcaption>
+      </figure>
+
+      <div class="table-wrap reveal">
+        <div class="table-wrap__scroll">
+          <table>
+            <thead>
+              <tr><th scope="col">Parametru</th><th scope="col">Instrument</th><th scope="col" class="num">Unitate</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Temperatura aerului</th><td>Termometru</td><td class="num val">°C</td></tr>
+              <tr><th scope="row">Umiditatea relativă</th><td>Higrometru / psihrometru</td><td class="num val">%</td></tr>
+              <tr><th scope="row">Viteza aerului</th><td>Anemometru</td><td class="num val">m/s</td></tr>
+              <tr><th scope="row">Temperatura radiantă</th><td>Instrumente de evaluare termică, inclusiv termometrul cu glob</td><td class="num val">°C</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <p class="note reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        <span>Măsurările trebuie realizate în poziții reprezentative ale locurilor ocupate, ținând seama de diferențele în timp, înălțime și proximitatea surselor de căldură ori curenților de aer.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 06 ================= -->
+  <section class="section section--band" id="normativ" data-nav="Valori normative (HG 353/2010)">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">06 · Repere legale</div>
+        <h2>Valori normative pentru anumite birouri din Republica Moldova</h2>
+        <p class="section__lede">Reperele de mai jos provin din HG nr. 353/2010 și se aplică unor categorii de posturi de lucru, nu oricărui loc de muncă.</p>
+      </div>
+
+      <figure class="figure reveal">
+        <img src="assets/svg/13-repere-legale-microclimat.svg" alt="Tabel cu reperele din HG nr. 353/2010 pentru birouri: temperatură, umiditate și viteza curenților, pe cele două perioade ale anului." width="1400" height="572" loading="lazy">
+        <figcaption>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h10v5a5 5 0 0 1-10 0V3Z"/><path d="M12 13v8"/></svg>
+          Repere pentru perioada caldă și perioada rece.
+        </figcaption>
+      </figure>
+
+      <div class="reveal">
+        <p style="max-width: 760px; color: var(--muted); font-size: 15px; margin-bottom: 18px">Potrivit <strong>HG nr. 353 din 05.05.2010, anexa nr. 2, punctul 11</strong>, pentru anumite posturi de lucru (birouri, camere de comandă, încăperi cu videoterminale etc.) unde activitatea necesită confort termic sunt indicate condițiile următoare:</p>
+
+        <div class="table-wrap">
+          <div class="table-wrap__scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Parametru</th>
+                  <th scope="col" class="num">16 aprilie – 15 octombrie</th>
+                  <th scope="col" class="num">16 octombrie – 15 aprilie</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">Temperatura aerului</th><td class="num val">23–26 °C</td><td class="num val">20–24 °C</td></tr>
+                <tr><th scope="row">Umiditatea relativă</th><td class="num val">30–70%</td><td class="num val">30–70%</td></tr>
+                <tr><th scope="row">Viteza medie a curenților</th><td class="num val">0,1–0,3 m/s</td><td class="num val">0,1–0,3 m/s</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="table-note">Actul prevede și alte condiții, inclusiv diferența pe verticală a temperaturii sub 3 °C. Pentru munci fizice sau medii industriale se aplică alte criterii, în funcție de sarcină și metabolism.</p>
+        </div>
+      </div>
+
+      <p class="note note--warm reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.3 3.9 1.8 18.4A2 2 0 0 0 3.5 21h17a2 2 0 0 0 1.7-2.6L13.7 3.9a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+        <span>Tabelul <strong>nu</strong> trebuie folosit ca „temperatură ideală universală” pentru orice loc de muncă. El descrie o categorie de posturi și două perioade ale anului.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 07 ================= -->
+  <section class="section" id="confort" data-nav="Confortul termic">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">07 · Fiziologie</div>
+        <h2>Confortul termic și echilibrul organismului</h2>
+        <p class="section__lede">Confortul termic este starea în care o persoană este mulțumită de condițiile termice. Organismul produce căldură prin metabolism și o transferă către mediu pe patru căi.</p>
+      </div>
+
+      <div class="grid grid--4">
+        <div class="card reveal">
+          <h3>Convecție</h3>
+          <p>Schimb de căldură cu aerul.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Radiație</h3>
+          <p>Schimb cu suprafețele din jur.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Evaporare</h3>
+          <p>Pierderea căldurii prin transpirație.</p>
+        </div>
+        <div class="card reveal">
+          <h3>Conducție</h3>
+          <p>Transferul de căldură prin contact direct.</p>
+        </div>
+      </div>
+
+      <p class="note note--plain reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        <span>Două persoane în aceeași încăpere se pot simți diferit, în funcție de îmbrăcăminte, activitate și percepție individuală.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 08 ================= -->
+  <section class="section section--band" id="ventilatie" data-nav="Ventilația și calitatea aerului">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">08 · Aer</div>
+        <h2>Ventilația și calitatea aerului</h2>
+      </div>
+
+      <div class="grid grid--2" style="align-items:start; gap: 38px">
+        <div class="prose reveal">
+          <p>Ventilația asigură aportul de aer proaspăt și evacuarea ori diluarea poluanților. Este o condiție importantă pentru un mediu sănătos.</p>
+          <ul class="list-clean">
+            <li><strong>Naturală:</strong> schimbul de aer prin ferestre, grile, diferențe de presiune și temperatură.</li>
+            <li><strong>Mecanică:</strong> ventilatoare și instalații care introduc sau evacuează aer.</li>
+            <li><strong>Mixtă:</strong> combină cele două mecanisme.</li>
+          </ul>
+        </div>
+        <div class="card card--flat reveal" style="background: var(--warm-soft); border-color: var(--warm-line); align-self: stretch; display:flex; flex-direction:column; justify-content:center">
+          <div class="card__icon card__icon--warm" style="background:#fff; border:1px solid var(--warm-line)">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.3 3.9 1.8 18.4A2 2 0 0 0 3.5 21h17a2 2 0 0 0 1.7-2.6L13.7 3.9a2 2 0 0 0-3.4 0Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+          </div>
+          <h3>Ventilație ≠ climatizare</h3>
+          <p>Un aparat de aer condiționat poate răci aerul recirculat <strong>fără</strong> să introducă aer exterior. Ventilația și climatizarea nu sunt automat același lucru.</p>
+        </div>
+      </div>
+
+      <figure class="figure reveal">
+        <img src="assets/svg/11-ventilatie.svg" alt="Trei scheme de ventilație: naturală prin fereastră, mecanică prin ventilatoare și mixtă." width="1400" height="588" loading="lazy">
+        <figcaption>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg>
+          Ventilație naturală, mecanică și mixtă.
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ================= 09 ================= -->
+  <section class="section" id="efecte" data-nav="Efecte și măsuri de prevenire">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">09 · Prevenire</div>
+        <h2>Efectele unui microclimat necorespunzător și măsuri de prevenire</h2>
+      </div>
+
+      <div class="table-wrap reveal">
+        <div class="table-wrap__scroll">
+          <table>
+            <thead>
+              <tr><th scope="col">Problemă</th><th scope="col">Efect posibil</th><th scope="col">Măsuri preventive</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row">Căldură excesivă</th><td>oboseală, stres termic, deshidratare</td><td>umbrire, răcire, hidratare, adaptarea sarcinilor</td></tr>
+              <tr><th scope="row">Frig excesiv</th><td>disconfort, dexteritate redusă</td><td>încălzire, izolare, îmbrăcăminte adecvată</td></tr>
+              <tr><th scope="row">Umiditate ridicată</th><td>disconfort, condens, condiții favorabile mucegaiului</td><td>eliminarea infiltrațiilor, ventilație, controlul umidității</td></tr>
+              <tr><th scope="row">Umiditate scăzută</th><td>uscăciunea mucoaselor, disconfort</td><td>monitorizare, corectarea condițiilor dacă este necesar</td></tr>
+              <tr><th scope="row">Curenți deranjanți</th><td>senzație de frig și disconfort local</td><td>reglarea direcției și vitezei gurilor de ventilație</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 10 SIMULATOR ================= -->
+  <section class="section section--band" id="simulator" data-nav="Simulator de microclimat">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">10 · Interactiv</div>
+        <h2>Simulator de microclimat</h2>
+        <p class="section__lede">Modifică temperatura, umiditatea și viteza aerului. Intervalele de referință pentru birouri sunt marcate pe fiecare scală, cu sursa afișată.</p>
+      </div>
+
+      <div class="sim reveal" id="sim">
+        <div class="sim__controls">
+          <div class="sim__top">
+            <div class="segmented" id="seasonGroup" role="group" aria-label="Alege perioada anului">
+              <button type="button" data-season="cald" aria-pressed="true">Perioada caldă</button>
+              <button type="button" data-season="rece" aria-pressed="false">Perioada rece</button>
+            </div>
+            <span class="muted" style="font-size:12px">16 apr – 15 oct / 16 oct – 15 apr</span>
+          </div>
+
+          <div class="slider">
+            <div class="slider__row">
+              <label for="simTemp">Temperatura aerului</label>
+              <output id="simTempOut" for="simTemp">22 °C</output>
+            </div>
+            <div class="range">
+              <div class="range__band" id="tempBand" style="left: 45%; width: 15%"></div>
+              <input id="simTemp" type="range" min="14" max="34" step="1" value="22" aria-describedby="simTempHint">
+            </div>
+            <div class="range__scale"><span>14 °C</span><span>34 °C</span></div>
+            <p class="slider__hint" id="simTempHint">Banda evidențiată arată intervalul de referință pentru perioada selectată.</p>
+          </div>
+
+          <div class="slider">
+            <div class="slider__row">
+              <label for="simHum">Umiditatea relativă</label>
+              <output id="simHumOut" for="simHum">45 %</output>
+            </div>
+            <div class="range">
+              <div class="range__band" id="humBand" style="left: 16.7%; width: 66.7%"></div>
+              <input id="simHum" type="range" min="20" max="80" step="1" value="45" aria-describedby="simHumHint">
+            </div>
+            <div class="range__scale"><span>20 %</span><span>80 %</span></div>
+            <p class="slider__hint" id="simHumHint">Intervalul de referință este 30–70%.</p>
+          </div>
+
+          <div class="slider" style="margin-bottom:6px">
+            <div class="slider__row">
+              <label for="simAir">Viteza aerului</label>
+              <output id="simAirOut" for="simAir">0,15 m/s</output>
+            </div>
+            <div class="range">
+              <div class="range__band" id="airBand" style="left: 10%; width: 20%"></div>
+              <input id="simAir" type="range" min="0" max="1" step="0.01" value="0.15" aria-describedby="simAirHint">
+            </div>
+            <div class="range__scale"><span>0 m/s</span><span>1 m/s</span></div>
+            <p class="slider__hint" id="simAirHint">Intervalul de referință este 0,1–0,3 m/s.</p>
+          </div>
+        </div>
+
+        <div class="sim__readout">
+          <span class="sim__status" id="simStatus" data-state="in">În interval</span>
+          <div class="sim__values">
+            <div class="sim__value"><span>Temperatura aerului</span><b id="outTemp">22<em>°C</em></b></div>
+            <div class="sim__value"><span>Umiditatea relativă</span><b id="outHum">45<em>%</em></b></div>
+            <div class="sim__value"><span>Viteza aerului</span><b id="outAir">0,15<em>m/s</em></b></div>
+            <div class="sim__value" style="border-bottom:0; padding-bottom:0"><span>Referință</span><b id="outRef" style="font-size:13px">23–26 °C</b></div>
+          </div>
+          <div class="sim__ref">
+            <span>Sursa reperelor</span>
+            <p>HG nr. 353/2010, anexa nr. 2, pct. 11 — birouri, camere de comandă, încăperi cu videoterminale. Diferența pe verticală a temperaturii: sub 3 °C.</p>
+          </div>
+          <p class="sim__msg" id="simMsg">Valorile selectate se află în intervalul de referință pentru perioada caldă.</p>
+        </div>
+      </div>
+
+      <p class="note note--plain reveal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        <span>Simulatorul este <strong>demonstrativ</strong>. Nu calculează confort termic validat: lipsesc temperatura radiantă, îmbrăcămintea și metabolismul. Intervalele afișate provin din HG nr. 353/2010, anexa nr. 2, punctul 11, pentru categoria de birouri menționată.</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= 11 ================= -->
+  <section class="section" id="studiu" data-nav="Studiu de caz">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">11 · Studiu de caz</div>
+        <h2>Confort termic într-un birou cu șase angajați</h2>
+      </div>
+
+      <figure class="figure reveal">
+        <img src="assets/svg/12-studiu-microclimat.svg" alt="Comparație între situația inițială, 29 de grade și 65% umiditate, și scenariul ilustrativ după măsuri, 24 de grade și 45% umiditate." width="1400" height="585" loading="lazy">
+        <figcaption>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>
+          „Înainte” și „după” — scenariul „după” este ilustrativ, nu un rezultat măsurat.
+        </figcaption>
+      </figure>
+
+      <div class="case reveal">
+        <div class="case__head">
+          <span class="case__tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v2M12 19v2M4.9 5.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2"/><circle cx="12" cy="12" r="4"/></svg>
+            Situație · analiză · măsuri · rezultat
+          </span>
+          <h3>Vara, biroul ajunge la 29 °C</h3>
+        </div>
+        <div class="case__grid">
+          <div class="case__cell">
+            <h4>Situația inițială</h4>
+            <p>Într-un birou cu șase angajați, temperatura ajunge vara la 29 °C, umiditatea la 65%, iar ferestrele sunt expuse la soare direct.</p>
+          </div>
+          <div class="case__cell">
+            <h4>Analiza</h4>
+            <p>Temperatura este mai mare decât intervalul prevăzut pentru categoria de birouri relevantă în perioada caldă; radiația solară poate accentua senzația de căldură.</p>
+          </div>
+          <div class="case__cell">
+            <h4>Măsuri propuse</h4>
+            <p>Jaluzele sau umbrire, verificarea ventilației și climatizării, măsurarea periodică a temperaturii și umidității, asigurarea apei potabile.</p>
+          </div>
+          <div class="case__cell">
+            <h4>Rezultat urmărit</h4>
+            <p>Scăderea expunerii la căldură și obținerea unor condiții mai bune pentru lucrul la calculator. Scenariul „după” (24 °C, 45%) este ilustrativ.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 12 ================= -->
+  <section class="section section--tight" id="concluzie" data-nav="Concluzie">
+    <div class="container">
+      <div class="prose reveal">
+        <div class="section__num" style="margin-bottom:10px">12 · Concluzie</div>
+        <p style="font-size:18px; line-height:1.7; color:var(--ink-soft)">Igiena muncii identifică și evaluează factorii nocivi, iar sanitația de producție aplică măsuri de prevenire. Microclimatul — temperatură, umiditate, viteza aerului și radiație termică — are un rol direct în confortul și sănătatea lucrătorilor. Monitorizarea parametrilor și adaptarea condițiilor la activitate ajută la crearea unui mediu de muncă sigur.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 13 QUIZ ================= -->
+  <section class="section" id="quiz" data-nav="Test de verificare">
+    <div class="container">
+      <div class="section__head reveal">
+        <div class="section__num">13 · Verificare</div>
+        <h2>Test de verificare</h2>
+        <p class="section__lede">Cinci întrebări cu feedback imediat și explicația fiecărui răspuns.</p>
+      </div>
+
+      <div class="quiz reveal" id="quizBox" data-quiz="microclimat">
+        <div class="quiz__head">
+          <span class="quiz__title">Igiena muncii și microclimatul</span>
+          <span class="quiz__count" data-quiz-count>Întrebarea 1 / 5</span>
+        </div>
+        <div class="quiz__progress"><span data-quiz-progress style="width:20%"></span></div>
+        <div class="quiz__body" data-quiz-body>
+          <noscript><p>Activează JavaScript pentru a putea parcurge testul.</p></noscript>
+        </div>
+      </div>
+
+      <a class="next reveal" href="index.html">
+        <span class="next__num">10</span>
+        <span class="next__body">
+          <small>Înapoi la tema anterioară</small>
+          <strong>Iluminarea de producere</strong>
+        </span>
+        <span class="next__arrow" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="m11 18-6-6 6-6"/></svg>
+        </span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="30" height="30" viewBox="0 0 36 36" aria-hidden="true">
+            <path d="M18 2.6 31 7.4v9.9c0 7.6-5.2 13.6-13 16.1-7.8-2.5-13-8.5-13-16.1V7.4L18 2.6Z" fill="#19a89a"/>
+            <circle cx="18" cy="19" r="2.4" fill="#fff"/>
+            <path d="M18 11.5v2M18 24.5v2M11.5 19h2M22.5 19h2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <span class="brand__name">WorkSafe</span>
+        </div>
+        <p>Mediul de muncă explicat vizual. Două lecții pentru clasă și pentru studiu individual: iluminarea de producere și igiena muncii cu microclimatul.</p>
+        <p style="margin-top:14px; font-size:12.5px; color:#7f95a9">Proiect școlar · conținut educațional. Valorile normative sunt citate cu sursa și contextul lor.</p>
+      </div>
+
+      <div>
+        <h4>Surse și bibliografie</h4>
+        <ul class="footer-links">
+          <li><a href="https://old.asm.md/galerie/HG%20nr_353.pdf" target="_blank" rel="noopener noreferrer">HG nr. 353/2010 — anexele nr. 2 și nr. 3</a></li>
+          <li><a href="https://www.hse.gov.uk/temperature/thermal/" target="_blank" rel="noopener noreferrer">HSE — Thermal comfort</a></li>
+          <li><a href="https://www.iloencyclopaedia.org/part-iv-66769/occupational-hygiene-47504" target="_blank" rel="noopener noreferrer">ILO — Occupational hygiene</a></li>
+          <li><a href="https://oshwiki.osha.europa.eu/mt/themes/lighting" target="_blank" rel="noopener noreferrer">EU-OSHA / OSHwiki</a></li>
+        </ul>
+        <p style="margin-top:16px; font-size:12px; color:#7f95a9">Verifică versiunea curentă a actelor și standardelor înainte de a afirma conformitatea legală a unui proiect real.</p>
+      </div>
+
+      <div>
+        <h4>Autori</h4>
+        <ul class="authors">
+          <li><span class="avatar">LG</span>Luchian Gabriel</li>
+          <li><span class="avatar">OI</span>Onoico Ianuș</li>
+          <li><span class="avatar">SC</span>Stog Cătălin</li>
+        </ul>
+        <h4 style="margin-top:22px">Teme</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Tema 10 — Iluminarea de producere</a></li>
+          <li>Tema 8 — Igiena muncii și microclimatul</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> WorkSafe · Ilustrații educaționale originale</span>
+      <span>Igiena muncii și microclimatul · pagina 2 din 2</span>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Înapoi sus">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="m5 12 7-7 7 7"/></svg>
+</button>
+
+<div class="toc-overlay" id="tocOverlay"></div>
+<aside class="toc" id="toc" aria-label="Cuprinsul lecției" aria-hidden="true" inert>
+  <div class="toc__head">
+    <span class="toc__title">Cuprins</span>
+    <button class="icon-btn" id="tocClose" type="button" aria-label="Închide cuprinsul">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+  </div>
+  <ul class="toc__list" id="tocList"></ul>
+</aside>
+
+<div class="present-badge">
+  Mod prezentare · apasă <kbd>Esc</kbd> pentru ieșire
+</div>
+
+<script src="assets/js/site.js" defer></script>
+<script src="assets/js/microclimat.js" defer></script>
+</body>
+</html>
